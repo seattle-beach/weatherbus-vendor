@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class VendorController {
 
-    private static final String PROTECTED_RESOURCE_URL = "https://api.yelp.com/v2/search/?location=San%20Francisco,%20CA";
+    private static final String PROTECTED_RESOURCE_URL = "https://api.yelp.com/v2/search?category_filter=coffee&ll=47.6,-122.3&radius_filter=1000";
     private static final String CONSUMER_KEY = "_I5idAPp9nWBIXRphxc7dQ";
     private static final String CONSUMER_SECRET = "YjiqP_hOtdOF6MYm8FJFh2VhpcQ";
     private static final String TOKEN = "eC5-h2pa1u4lAMhA5GeoZvQtwjxggcr0";
